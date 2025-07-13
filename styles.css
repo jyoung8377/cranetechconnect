@@ -1,57 +1,63 @@
-
 body {
-  margin: 0;
-  font-family: sans-serif;
-  background-color: #1a1a1a;
+  background-color: #121212;
   color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
 .container {
-  padding: 2rem;
-  max-width: 480px;
+  max-width: 400px;
   margin: auto;
+  padding: 1em;
   text-align: center;
 }
+
 .logo {
-  width: 100px;
-  margin-bottom: 1rem;
+  max-width: 100px;
+  margin: 1em auto;
 }
-.intro {
-  margin: 1rem 0;
+
+h1 {
+  color: #FFD100;
 }
+
 .card {
-  background: #2a2a2a;
-  border: 1px solid #ffc400;
-  padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 6px;
+  border: 1px solid #FFD100;
+  border-radius: 8px;
+  padding: 1em;
+  margin: 1em 0;
+  background-color: #1e1e1e;
 }
-.cta-button {
+
+.button {
   display: inline-block;
-  margin-top: 1rem;
-  padding: 0.75rem 1.5rem;
-  background-color: #ffc400;
+  background-color: #FFD100;
   color: #000;
+  padding: 0.75em 1.5em;
   text-decoration: none;
-  font-weight: bold;
   border-radius: 4px;
+  margin-top: 1em;
 }
-.login-form {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  margin-top: 2rem;
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
 }
-.login-form input {
-  padding: 0.5rem;
+
+.login-container button {
+  width: 100%;
+  padding: 0.75em;
+  background-color: #FFD100;
   border: none;
   border-radius: 4px;
-}
-.login-form button {
-  padding: 0.75rem;
-  background-color: #ffc400;
-  color: #000;
   font-weight: bold;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+}
+
+.switch-role {
+  margin-top: 1em;
 }
