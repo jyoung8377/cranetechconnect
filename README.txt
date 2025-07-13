@@ -1,1 +1,0 @@
-CraneTechConnect update placeholder.
