@@ -1,42 +1,26 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Create Account - Crane Tech Connect</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <title>Create Account - CTC</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Create Your Account</h1>
-    <form id="signupForm">
-      <label for="fullname">Full Name:</label>
-      <input type="text" id="fullname" name="fullname" required />
-
-      <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" required />
-
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required />
-
-      <label for="location">Location (City, State):</label>
-      <input type="text" id="location" name="location" required />
-
-      <label for="company">Company:</label>
-      <input type="text" id="company" name="company" />
-
-      <label for="experience">Years of Experience:</label>
-      <input type="number" id="experience" name="experience" min="0" required />
-
-      <label for="expertise">Crane Makes (Expertise):</label>
-      <input type="text" id="expertise" name="expertise" placeholder="e.g., Grove, Tadano, Demag" required />
-
-      <label for="photo">Upload Profile Photo:</label>
-      <input type="file" id="photo" name="photo" accept="image/*" required />
-
-      <button type="submit">Create Account</button>
+  <main class="form-container">
+    <h2>Create Account</h2>
+    <form>
+      <label>Full Name <input type="text" required /></label>
+      <label>Email <input type="email" required /></label>
+      <label>Phone <input type="tel" /></label>
+      <label>Company <input type="text" /></label>
+      <label>Location <input type="text" /></label>
+      <label>Crane Expertise <input type="text" placeholder="Grove, Tadano, etc." /></label>
+      <label>Years of Experience <input type="number" /></label>
+      <label>Upload Photo <input type="file" accept="image/*" /></label>
+      <label>Password <input type="password" required /></label>
+      <button type="submit" class="btn">Create Account</button>
     </form>
-  </div>
+  </main>
 </body>
 </html>

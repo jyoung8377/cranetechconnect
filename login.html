@@ -2,20 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Login - Crane Tech Connect</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - CTC</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="container login-container">
-    <img src="assets/logo.png" alt="CTC Logo" class="logo" />
-    <h1>Login</h1>
+  <main class="form-container">
+    <h2>Login to Crane Tech Connect</h2>
     <form>
-      <input type="email" placeholder="Email" required />
-      <input type="password" placeholder="Password" required />
-      <button type="submit">Log In</button>
+      <label>Email <input type="email" required /></label>
+      <label>Password <input type="password" required /></label>
+      <button type="submit" class="btn">Login</button>
     </form>
-    <p class="switch-role">Need to sign up? <a href="#">Create an account</a></p>
-  </div>
+    <p>Don't have an account? <a href="signup.html">Create one</a></p>
+  </main>
 </body>
 </html>
