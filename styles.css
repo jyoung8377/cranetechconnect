@@ -1,0 +1,63 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+}
+
+.logo {
+  max-width: 100px;
+  margin: 1em auto;
+}
+
+h1 {
+  color: #FFD100;
+}
+
+.card {
+  border: 1px solid #FFD100;
+  border-radius: 8px;
+  padding: 1em;
+  margin: 1em 0;
+  background-color: #1e1e1e;
+}
+
+.button {
+  display: inline-block;
+  background-color: #FFD100;
+  color: #000;
+  padding: 0.75em 1.5em;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 1em;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 0.75em;
+  background-color: #FFD100;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.switch-role {
+  margin-top: 1em;
+}
